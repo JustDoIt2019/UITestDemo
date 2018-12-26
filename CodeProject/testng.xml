@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grace Test Suite">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL" value="http://www.google.com" />
+    <test verbose="2"  name="Test Cases">
+        <classes>
+            <class name="company.BasePageTest">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
